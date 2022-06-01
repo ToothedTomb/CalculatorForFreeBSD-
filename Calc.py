@@ -103,12 +103,12 @@ text="C", bg="green", activebackground='orange',command= btnClearDisplay).grid(r
 def on_closing():
     root = tk.Toplevel()  
     root.resizable(0,0)
-    root.title("Confirm to exit the game:")
+    root.title("Confirm to exit the software:")
     root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(file='icons.png'))
 
 
-    labelTitle = tk.Label(root,font=("Ubuntu", 26,"bold","underline"),anchor='center', text="Confirm to exit the game:")
-    label = tk.Label(root,font=("Ubuntu", 16,"bold",),anchor='center', text="Are you sure you want to leave this game?")
+    labelTitle = tk.Label(root,font=("Ubuntu", 26,"bold","underline"),anchor='center', text="Confirm to exit the software:")
+    label = tk.Label(root,font=("Ubuntu", 16,"bold",),anchor='center', text="Are you sure you want to leave this software?")
 
     labelTitle.pack(side="top",fill="x",pady=1)
     label.pack(side="top", fill="x", pady=2)
