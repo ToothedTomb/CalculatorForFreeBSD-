@@ -45,7 +45,7 @@ my_menu.add_cascade(label="About:",font=("Ubuntu",18),activebackground="#90ee90"
 file_menu.add_command(label="What is this software?",font=("Ubuntu",18),activebackground="#90ee90",command=WhatIsThisSoftware)
 file_menu.add_command(label="Who made this software?",font=("Ubuntu",18),activebackground="#90ee90",command=WhoMadeThisSoftware)
 
-cal.title("Basic Calculator 4.0 for FreeBSD!")
+cal.title("Basic Calculator 4.1 for FreeBSD!")
 cal.tk.call('wm', 'iconphoto', cal._w, tk.PhotoImage(file='icons.png'))
 cal.resizable(0,0)
 cal.config(bg='#90ee90')
