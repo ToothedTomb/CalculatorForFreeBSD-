@@ -1,7 +1,7 @@
 # CalculatorForFreeBSD-
 Simple calculator for FreeBSD. Lightweight and easy to use. 
 
-![Screenshot from 2022-06-11 13-46-07](https://user-images.githubusercontent.com/52569279/173188848-895821ba-29e0-4191-bdff-10717ab92feb.png)
+![Screenshot from 2022-06-25 17-42-04](https://user-images.githubusercontent.com/52569279/175783033-d1099c20-475a-4069-bcaa-1d349c4f9198.png)
 
 
 
